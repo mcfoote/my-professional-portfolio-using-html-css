@@ -249,8 +249,9 @@ footer ul li a:hover {
     border-radius: 15px;
 }
 
-
 /* Media Query for smaller screens*/
+
+/*
 @media screen and (max-width: 768px) {
     .hero .coolSubtitle {
         font-size: 26px;
@@ -270,4 +271,4 @@ footer ul li a:hover {
         line-height: 1.6;
     }
 }
-
+*/
