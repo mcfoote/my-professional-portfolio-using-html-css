@@ -1,0 +1,265 @@
+:root {
+    --primary: lightblue;
+    --secondary: white;
+    --accent: steelblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    color: var(--primary);
+    background-color: slategray;
+}
+
+header div {
+    box-shadow: 4px 4px 5px darkslateblue;
+}
+
+header h1 {
+    font-size: 44px;
+    font-weight: bold;
+    border: 6px solid var(--accent);
+    padding: 12px;
+    color: var(--accent);
+    background-color: darkslategray;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    list-style: none;
+}
+
+header nav {
+    margin: 10px;
+}
+
+header nav ul li {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header nav ul li a {
+    position: relative;
+    right: -64px;
+    padding: 15px 32px;
+    font-size: 30px;
+    margin: 8px 8px 0 0;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    background: var(--accent);
+    color: var(--primary);
+    border-radius: 15px;
+    opacity: 50%;
+}
+
+.hero {
+    background-image: url("../images/dataCenter.webp");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero img {
+    height: 400px;
+}
+
+.hero .coolSubtitle {
+    color: orange;
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+
+.hero .coolSubtitle #subtitleText {
+    font-size: 48px;
+}
+
+.sectionHeading {
+    border-right: 5px solid var(--accent);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.sectionHeading h2 {
+    font-size: 48px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.about p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+
+.work {
+    background-color: var(--secondary);
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work h2 {
+    color: var(--primary);
+}
+
+.projectGridWrapper {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 500px; 
+}
+
+.projectGrid {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.project {
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    border: solid;
+    color: black;
+    display: flex;
+}
+
+.project:hover {
+    opacity: 1.0;
+}
+
+.runBuddy {
+    background-image: url("../images/runBuddy.jpg");
+    grid-column: 1/3;
+    grid-row: span 2;
+}
+
+.calculator {
+    background-image: url("../images/calculator.jpg");
+    background-position: 50% 15%;
+}
+
+.pastelPuzzles {
+    background-image: url("../images/pastelPuzzles.jpg");
+    background-position: 50% 15%;
+}
+
+.ledWall {
+    background-image: url("../images/ledWall.jpg");
+    background-position: 50% 15%;
+}
+.surfReport {
+    background-image: url("../images/surfReport.jpg");
+    background-position: 50% 15%;
+}
+
+
+
+.projectLabels {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    margin-bottom: 24px;
+}
+
+.contactWrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactList {
+    width: 60%;
+}
+
+footer ul {
+    font-size: 30px;
+    font-weight: bolder;
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center; 
+}
+
+footer ul li {
+
+    font-weight: bold;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--primary);
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    background: var(--accent);
+    color: var(--secondary);
+    border-radius: 15px;
+}
+
+
+/* Media Query for smaller screens*/
+@media screen and (max-width: 768px) {
+    .hero .coolSubtitle {
+        font-size: 26px;
+        padding-right: 20px;
+    }
+    
+    .hero .coolSubtitle #subtitleText {
+        font-size: 34px;
+    }
+
+    .sectionHeading h2 {
+        font-size: 332px;
+    }
+
+    .about p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
