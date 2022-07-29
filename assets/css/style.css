@@ -250,7 +250,7 @@ footer ul li a:hover {
 }
 
 /* Media Query for smaller screens*/
-
+/*
 @media screen and (max-width: 800px) {
     .hero .coolSubtitle {
         font-size: 24px;
@@ -259,15 +259,6 @@ footer ul li a:hover {
     
     .hero .coolSubtitle #subtitleText {
         font-size: 30px;
-    }
-
-    .sectionHeading {
-        border-right: none;
-        text-align: center;
-        min-width: 100%;
-        max-width: 100%;
-        padding: 0;
-        border-bottom: 5px solid var(--accent);
     }
 
     .sectionHeading h2 {
@@ -279,3 +270,4 @@ footer ul li a:hover {
         line-height: 1.6;
     }
 }
+*/
