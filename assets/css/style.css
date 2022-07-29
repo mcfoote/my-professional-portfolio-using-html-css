@@ -251,15 +251,14 @@ footer ul li a:hover {
 
 /* Media Query for smaller screens*/
 
-/*
 @media screen and (max-width: 768px) {
     .hero .coolSubtitle {
-        font-size: 26px;
-        padding-right: 20px;
+        font-size: 24px;
+        padding-right: 15px;
     }
     
     .hero .coolSubtitle #subtitleText {
-        font-size: 34px;
+        font-size: 30px;
     }
 
     .sectionHeading h2 {
@@ -267,8 +266,7 @@ footer ul li a:hover {
     }
 
     .about p {
-        font-size: 15px;
+        font-size: 12px;
         line-height: 1.6;
     }
 }
-*/
