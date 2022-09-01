@@ -171,8 +171,8 @@ header nav ul li a:hover {
 }
 
 /*Link background images to boxes */
-.runBuddy {
-    background-image: url("../images/runBuddy.jpg");
+.MTGDeckBuilder {
+    background-image: url("../images/siteScreenShot.png");
     grid-column: 1/3;
     grid-row: span 2;
 }
